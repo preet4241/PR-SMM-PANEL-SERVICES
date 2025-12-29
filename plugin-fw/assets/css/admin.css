@@ -1,0 +1,196 @@
+/*-----------------------
+        SMMS Debug
+ ------------------------*/
+#wpadminbar .smms-debug-admin-bar div,
+#wpadminbar .smms-debug-admin-bar:hover div {
+    background: #05789c !important;
+    color: #fff !important;
+}
+
+#wpadminbar .smms-debug-admin-bar a,
+#wpadminbar .smms-debug-admin-bar strong {
+    color: #fff !important;
+}
+
+#wpadminbar .smms-debug-admin-bar strong {
+    font-weight: 600;
+}
+
+#wpadminbar .smms-debug-admin-bar-post-meta .ab-empty-item,
+#wpadminbar .smms-debug-admin-bar-option .ab-empty-item {
+    display: none;
+}
+
+#wpadminbar #wp-admin-bar-smms-debug-admin-bar-post-meta-default,
+#wpadminbar #wp-admin-bar-smms-debug-admin-bar-option-default {
+    padding: 0;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+#wpadminbar .smms-debug-admin-bar pre {
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.notice-smms {
+    margin-left: 0;
+    border-left-color: #acc327;
+}
+
+.notice-smms.notice-alt {
+    background-color: #ecf7ed;
+}
+
+.smms-promo-banner-image-link {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.smms-promo-banner-image {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*-----------------------
+    SMMS FEEDS
+ ------------------------*/
+
+.smms-feeds-logo {
+    display: table-cell;
+    background: #005b7c;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+    width: 18px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.smms-feeds-plugin-name {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*-----------------------
+    SMMS Plugins Columns
+ ------------------------*/
+@media screen and (min-width: 783px) {
+
+    .auto-fold #adminmenu .smms-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu-head {
+        width: 100%;
+    }
+
+    #adminmenu .smms-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu {
+        min-width: 320px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #adminmenu .smms-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head) {
+        width: 50%;
+        border-left: 1px solid #555;
+        box-sizing: border-box;
+    }
+
+    #adminmenu .smms-plugin-fw-menu-2-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head):nth-child(2n) {
+        border-left: none;
+    }
+
+    #adminmenu .smms-plugin-fw-menu-3-columns.wp-not-current-submenu .wp-submenu {
+        min-width: 480px;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #adminmenu .smms-plugin-fw-menu-3-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head) {
+        width: calc(100% / 3);
+        border-left: 1px solid #555;
+        box-sizing: border-box;
+    }
+
+    #adminmenu .smms-plugin-fw-menu-3-columns.wp-not-current-submenu .wp-submenu li:not(.wp-submenu-head):nth-child(3n + 2) {
+        border-left: none;
+    }
+}
+
+/*---------------------------
+    SMMS System Information
+ ----------------------------*/
+.smms-phpinfo img {
+    float: right;
+    border: 0;
+}
+
+#smms-system-alert span.smms-logo,
+.smms-system-info h1 span.smms-logo {
+    border-radius: 50%;
+    background: #265b7a;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    text-align: center;
+    margin: 0 10px 0 0;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.smms-system-info table {
+    margin: 20px 0;
+}
+
+.smms-system-info table th {
+    font-weight: bold;
+    width: 25%;
+    padding: 20px 12px;
+}
+
+.smms-system-info table td {
+    word-break: break-all;
+    padding: 20px 12px;
+}
+
+.smms-system-info table td.requirement-value {
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: left;
+    color: #5da726;
+    line-height: 19px;
+    width: 90px;
+}
+
+.smms-system-info table td.requirement-value.has-errors {
+    color: #a00;
+}
+
+.smms-system-info table td.requirement-value.has-warnings {
+    color: #ffa200;
+}
+
+.smms-system-info table td.requirement-messages ul {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none!important;
+}
+
+.smms-system-info table td.requirement-messages ul li {
+    margin-bottom: 3px;
+}
+
+.smms-system-info table td.requirement-messages ul li span.error {
+    color: #a00;
+    font-weight: bold;
+}
+
+.smms-system-info table td.requirement-messages ul li span.warning {
+    color: #a00;
+    font-weight: bold;
+}
+
+.smms-system-info-menu {
+    font-weight: bold;
+    font-size: 11px !important;
+}
