@@ -1,0 +1,58 @@
+.smapi_price_is_per{
+	margin: 10px;
+	font-size: 1.1em;
+}
+.smapi_server_name{
+	margin: 10px;
+	font-size: 1.1em;
+}
+.smm_setting {
+  display: inline-block;
+  height: 70px;
+  
+  background: #E1FBF9;
+  color: #5D4EC5;
+  padding: 6px;
+  margin: 3px;
+}
+.smm-flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.smm-flex-item-1 {
+    order: 0;
+    flex: 0 0 auto;
+    align-self: auto;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+.smm-flex-item-2 {
+    order: 0;
+    flex: 0 0 auto;
+    align-self: auto;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.smm-flex-item-3 {
+    order: 0;
+    flex: 0 0 auto;
+    align-self: auto;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+#smms_woocommerce_subscription_privacy .smms-plugin-fw-checkbox-field-wrapper{
+	width: auto!important;
+}
+#woocommerce-product-data .wc-metaboxes-wrapper .wc-radios{
+    display: inline-flex !important;
+
+}
+.wp-list-table .column-smm-id 
+{ 
+width: 76px; 
+text-align: 
+left!important;padding: 5px;
+}
